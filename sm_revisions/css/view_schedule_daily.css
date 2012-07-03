@@ -1,0 +1,96 @@
+/* view_schedule_daily.css */
+@media print {
+#navigation{display:none;}
+#daily_calendar_show_options{display:none;}
+#daily_calendar_options{display:none;}
+}
+#daily_calendar {
+position:relative;
+margin:0px auto;
+width:90%;
+height:600px;
+border:1px solid 4f4f4f;
+}
+#print{
+position:relative;
+left:89%;
+}
+#daily_calendar_show_options {
+position:relative;
+left:84%;
+margin-bottom:10px;
+padding:2px;
+text-align:center;
+width:130px;
+background:#d3d3d3;
+border-radius:5px;
+border:1px solid black;
+cursor:pointer;
+}
+#daily_calendar_show_options:hover {
+background:#ececec;
+}
+#daily_calendar_options {
+background:#ececec;
+margin-bottom:10px;
+padding:5px;
+border:1px solid black;
+border-radius:5px;
+display:none;
+}
+
+.available_appointment {
+width:192px;
+background:#affaff;
+}
+th{
+width:96px;
+border:1px dashed grey;
+text-align:left;
+font-weight:700;
+}
+tr {
+height:16px;
+border:1px solid black;
+}
+td {
+opacity:.8;
+}
+td:hover {
+opacity:1;
+}
+
+#hover_example{
+position:absolute;
+top:180px;
+left:400px;
+width:200px;
+height:120px;
+background:white;
+border:2px solid #4f4f4f;
+border-radius:5px;
+display:none;
+}
+#modal_example {
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+z-index:150;
+margin:0px;
+padding:0px;
+background:rgba(0, 0, 0, .6);
+display:none;
+}
+#appointment_example 	{
+width:600px;
+height:400px;
+top:50%;
+left:50%;
+margin-left:350px;
+margin-top:200px;
+background:white;
+border-radius:14px;
+border:3px solid black;
+}

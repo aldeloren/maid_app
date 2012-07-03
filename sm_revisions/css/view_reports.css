@@ -1,0 +1,83 @@
+/* view_reports css */
+img {
+margin:0px;
+box-shadow:none;
+}
+#choices{
+position:relative;
+left:80%;
+margin:5px;
+}
+.third {
+width:30%;
+float:left;
+border:1px solid #D0D0D0;
+border-radius:5px;
+padding:1%;
+margin:.6%;
+}
+.full_star{
+width:40px;
+height:40px;
+background:url("file://localhost/Users/Anthony/Desktop/sm_revisions/img/icon_star.png")no-repeat;
+float:left;
+margin:;
+}
+.empty_star{
+width:40px;
+height:40px;
+background:url("file://localhost/Users/Anthony/Desktop/sm_revisions/img/icon_star_empty.png")no-repeat;
+float:left;
+}
+#results {
+	width:90%;
+	border:1px solid black;
+	border-radius:5px;
+	margin:0px auto;
+	background:#F0F0F0;
+	height:88px;
+}
+#employee_results{
+	width:90%;
+	border:1px solid black;
+	border-radius:5px;
+	margin:0px auto;
+	margin-top:10px;
+	background:#F0F0F0;
+}
+.employee {
+	padding:10px;
+	border-bottom:1px dashed #D0D0D0;
+}
+.employee:hover {
+	background:#F5F5F5;
+}
+.emp_name{
+	width:30%;
+	float:left;
+	margin-top:10px;
+}
+.emp_rating {
+}
+.emp_details {
+width:20%;
+margin-left:15%;
+
+}
+
+.wow1{font-size:1em;}
+.wow2{font-size:2.5em; color:orange;margin-top:-18px;}
+.wow3{font-size:3em; color:red;margin-top:-25px;}
+.response{
+	font-weight:700;
+	margin-left:30px;
+}
+#hidden_scores{
+display:none;
+height:300px;
+overflow:scroll;
+background:#F5F5F5;
+}
+#hidden_scores li{
+border-top:1px dashed #D0D0D0;
+border-bottom:1px dashed #D0D0D0;

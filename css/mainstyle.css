@@ -1,0 +1,17 @@
+/* mainstyle.css */
+body {font-family: 'Quicksand', sans-serif;}
+h1,h2,h3 {font-family:'Cabin Condensed', sans-serif;line-height:.2em;}h1 {font-size:5em;color:#4f4f4f;}h2 {font-size:3em;color:#989898;}h3 {font-size:2em;color:#D0D0D0;}
+p {font-size:1em;color:black;} .full {text-indent:30px;}
+button {-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;box-shadow:inset 0px 1px 0px 0px #ffffff;background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');background-color:#ededed;-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;border:1px solid #dcdcdc;display:inline-block;color:#777777;font-weight:bold;padding:6px 24px;text-decoration:none;text-shadow:1px 1px 0px #ffffff;}
+button:hover{background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');background-color:#dfdfdf;}button:active {position:relative;top:1px;}
+input{width:200px; height:18px; border-radius:5px;} input:focus {border: 1px solid #87CEEB; -webkit-box-shadow: 0px 0px 3px #87CEEB;-moz-box-shadow:0px 0px 3px #87CEEB;box-shadow:0px 0px 3px #87CEEB;}
+img {margin:10px; -webkit-box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.75);-moz-box-shadow:0px 0px 3px rgba(50, 50, 50, 0.75);box-shadow:0px 0px 3px rgba(50, 50, 50, 0.75);}
+#wrapper {position:relative;top:30px;width:960px;height:1000px;margin:0px auto;border:1px dashed grey;}
+#logo {height:100px;width:300px;background:url('file://localhost/Users/Anthony/Desktop/maid_app/img/logo_rev_1.png'); -webkit-transition: background-position .1s ease-in;-webkit-transition: background-position .1s ease-in;-webkit-transition: background-position .1s ease-in;float:left;}
+#logo:hover {background-position:0px -5px;-webkit-transition: background-position .2s ease-in;-webkit-transition: background-position .2s ease-in;-webkit-transition: background-position .2s ease-in;float:left;}
+#navigation{position:relative;font-size:1.5em;font-weight:300;float:left;text-decoration:none;}
+#navigation div{margin:71px 0px 0px 20px;cursor:pointer;float:left;}
+#navigation span:hover{text-decoration:underline;}
+#home_nav{width:165px;background:url('file://localhost/Users/Anthony/Desktop/maid_app/img/home.png')no-repeat right;}
+#content {position:absolute;top:110px;height:100%;width:100%;}
+.nav_drop {position:absolute;background-color:white;opacity:1;z-index:100;top:35px;font-size:.7em;border:1px solid grey;border-radius:10px;}.nav_drop p{padding:5px;}.nav_drop p:hover {text-decoration:underline;}#schedule_nav {display:none;line-height:0em;}#employees_nav {display:none;line-height:0em;}#reports_nav {display:none;line-height:0em;}#footer p{font-size:.8em;padding:25px;text-align:center;z-index:-1;float:none;}

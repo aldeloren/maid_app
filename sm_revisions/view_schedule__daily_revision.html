@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="Scheduling, Maid Software">
+	<meta name="description" content="maidSuite is a full featured scheduling software designed for the maid industry">
+	<link href="css/mainstyle.css" type="text/css" rel="stylesheet">
+	<link href="css/view_schedule_daily.css" type="text/css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Cabin+Condensed:400,700' rel='stylesheet' type='text/css'>
+	</head>
+<body>
+<div id="wrapper">
+<a href="sale_splash_revision.html"><div id="logo"></div></a>
+<div id="navigation">
+	<div id="home_nav"><span>Dashboard<span></div>
+	<div><span id="schedule">Schedule</span>
+		<div class="nav_drop" id="schedule_nav">
+			<p><a href="add_appointment_revision.html">Add Appointment</a></p>
+			<p><a href="view_schedule__daily_revision.html">View Schedule</a></p>
+		</div>
+	</div>
+	<div><span id="employees">Employees</span>
+		<div class="nav_drop" id="employees_nav">
+			<p>Add Employee</p>
+			<p>View Employees</p>
+		</div>
+	</div>
+	<div><span id="reports">Reports</span>
+		<div class="nav_drop" id="reports_nav">
+			<p><a href="view_reports_revision.html">Survey&nbsp;Results</a></p>
+			<p>Hot&nbspClients</p>
+		</div>
+	</div>	
+</div>
+<div id="content">
+<div class="info_bar"><h1>Today's Schedule</h1><span>Monday&nbsp
+<script>
+	var currentTime = new Date()
+	var m = currentTime.getMonth() + 1
+	var d = currentTime.getDate()
+	var y = currentTime.getFullYear()
+	document.write(m + "/" + d + "/" + y)
+</script></span></div>
+<div class="break"></div>
+<div id="daily_calendar">
+<div id="calendar_settings">
+	<div class="output" id="print">
+	<a href="#">
+		<span class="save">&nbsp&nbsp&nbsp&nbsp</span>
+	</a>
+	<a href="#" onClick="window.print()">
+		<span class="print">&nbsp&nbsp&nbsp&nbsp</span>
+	</a>
+	</div>
+	<div id="daily_calendar_show_options">
+			<p>View options<span class="down_triangles">&nbsp&nbsp&nbsp&nbsp</span></p>
+		</div>
+	</div>
+	<div id="daily_calendar_options">
+			<div class="third"><p>Available appointments:</p>
+			<div id="drag1" class="available_appointment" draggable="true" ondragstart="drag(event)">#45756 Gates,B</div>
+			<div id="drag2" class="available_appointment" draggable="true" ondragstart="drag(event)">#45756 Gates,B</div>
+		</div>
+	</div>
+	<table border="0" cellspacing"0">
+	<thead>	
+		<th>Employee</th>
+		<th>8a</th>
+		<th>9a</th>
+		<th>10a</th>
+		<th>11a</th>
+		<th>12a</th>
+		<th>1p</th>
+		<th>2p</th>
+		<th>3p</th>
+		<th>4p</th>
+		<th>5p</th>
+		<th>6p</th>
+	</thead>
+	<tbody>
+		<tr></tr>
+			<td>Anthony</td>
+			<td colspan='2'></td>
+			<td colspan='2' style="background:#CCCCFF;" id="hover_example_hover">10a-12p #43125 </td>
+			<td colspan='1'></td>
+			<td colspan='2' style="background:#CCCCFF;" id="hover_example_hover1">1p-3p #43125 </td>
+			<td colspan='4'></td>
+		<tr></tr>
+			<td>Sterling</td>
+			<td colspan='2'></td>
+			<td colspan='2' style="background:#CCCCFF;">10a-12p #43125 </td>
+			<td colspan='1'></td>
+			<td colspan='2' style="background:#CCCCFF;">1p-3p #53673 </td>
+			<td colspan='4'></td>
+		<tr></tr>
+			<td>Tim</td>
+			<td colspan='4'></td>
+			<td colspan='2' style="background:#FF6699;">10a-12p #11352 </td>
+			<td colspan='2'></td>
+			<td colspan='3' style="background:#FF6699;">1p-3p #098097 </td>
+		<tr></tr>
+			<td>Chris</td>
+			<td colspan='4'></td>
+			<td colspan='2' style="background:#FF6699;">10a-12p #11352 </td>
+			<td colspan='2'></td>
+			<td colspan='3' style="background:#FF6699;">1p-3p #098097 </td>
+		<tr></tr>
+			<td>David</td>
+			<td colspan='1'></td>
+			<td colspan='3' style="background:#99FF99;">10a-12p #889123 </td>
+			<td colspan='1'></td>
+			<td colspan='3' style="background:#99FF99;">1p-3p #15278 </td>
+			<td colspan='1'></td>
+			<td colspan='2' style="background:#99FF99;">1p-3p #098097 </td>
+		<tr></tr>
+			<td>Ian</td>
+			<td colspan='1'></td>
+			<td colspan='3' style="background:#99FF99;">10a-12p #889123 </td>
+			<td colspan='1'></td>
+			<td colspan='3' style="background:#99FF99;">1p-3p #15278 </td>
+			<td colspan='1'></td>
+			<td colspan='2' style="background:#99FF99;">1p-3p #098097 </td>
+		<tr></tr>
+			<td >Josh</td>
+			<td colspan="3"></td>
+			<td ondrop="drop(event)" ondragover="allowDrop(event)" colspan='2'></td>
+			<td colspan='6'></td>
+		<tr></tr>
+			<td>Kristen</td>
+			<td colspan="3"></td>
+			<td ondrop="drop(event)" ondragover="allowDrop(event)" colspan='2'></td>
+			<td colspan='6'></td>
+		<tr></tr>
+			<td>Sterling</td>
+			<td colspan='11'></td>
+		<tr></tr>
+			<td>Anthony</td>
+			<td colspan='11'></td>
+	</tbody>
+	</table>
+</div id="daily_calendar">
+<div id="hover_example">
+	<span>10a-12p<br>
+	Customer#43125<br>
+	McKinney, P.A. Law Firm</span><br>
+	<p style="color:red;font-size:1.4em;text-align:center;margin:5px;">HOT:</p>
+	<p style="text-align:center;margin:3px;">First time client.</span>
+</div>​
+<div id="footer">
+	<p>Copyright © 2012 maidSuite. All rights reserved.</p>
+</div id="footer">
+</div>
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/modernizr.custom.31565" ></script>
+<script type="text/javascript" src="js/jq.js"></script>
+<div id="modal_example">
+	<div id="appointment_example">
+	<h3 style="text-align:center">10a-12p: <a href="#">Anthony D,</a>&nbsp<a href="#">Sterling S.</a></h3><span style="font-size:1.5em">Customer#43125</span>
+	<p><img height="50%" src="http://www.aldev.co/sm_revisions/img/ss.png" style="float:right;">McKinney, P.A. Law Firm<br>
+	113 NW 3rd Street<br>
+	Gainesville, Florida 32601<br><br>
+	<span style="color:red;font-size:1.8em;margin:5px;">HOT:First Appointment</span>
+	</p>
+	<p>Client has requested the the office be cleaned immaculately, and will be inspecting all work done before scheduled employees leave. Additionally, the office has a small fountain in the lobby that will be to be scrubbed. Don't forget to feed the goldfish!</p>
+	</div>
+	<script>
+	$('#hover_example_hover').click(function() {
+  $('#modal_example').fadeIn('fast')
+  });
+  $('#modal_example').click(function() {
+  $(this).fadeOut('fast')
+  });
+$('#hover_example_hover').click(function() {
+  $('#modal_example').fadeIn('fast')
+  });
+  $('#modal_example').click(function() {
+  $(this).fadeOut('fast')
+});</script>
+</div>
+</body>
+</html>

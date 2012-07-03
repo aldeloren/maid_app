@@ -1,0 +1,14 @@
+/* add_appointment_pagestyle.css */
+h1,h2,h3,h4 {line-height:1em;margin:0px;text-align:center;}
+h4{padding:5px;}
+input,button{margin-left:50px;}
+.highlight{
+	color:#FFCC99;
+	font-size:1.1em;
+	font-weight:400;
+}
+.pricing {float:left;width:33.2%;}
+#tour img {
+	float:left;
+}
+
