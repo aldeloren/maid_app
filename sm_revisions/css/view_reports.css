@@ -19,14 +19,14 @@ margin:.6%;
 .full_star{
 width:40px;
 height:40px;
-background:url("file://localhost/Users/Anthony/Desktop/sm_revisions/img/icon_star.png")no-repeat;
+background:url("file:///Users/Anthony/Desktop/maid_app/sm_revisions/img/icon_star.png")no-repeat;
 float:left;
 margin:;
 }
 .empty_star{
 width:40px;
 height:40px;
-background:url("file://localhost/Users/Anthony/Desktop/sm_revisions/img/icon_star_empty.png")no-repeat;
+background:url("file:///Users/Anthony/Desktop/maid_app/sm_revisions/img/icon_star_empty.png")no-repeat;
 float:left;
 }
 #results {

@@ -25,7 +25,7 @@ img {margin:10px; -webkit-box-shadow: 0px 0px 3px rgba(50, 50, 50, 0.75);-moz-bo
 .info_bar span{font-size:1em;float:right;margin: -27px 180px 0px 0px;}
 .break{position:relative;width:80%;border:1px solid #4f4f4f;margin-left:100px;}
 .nav_drop{position:absolute;background-color:white;opacity:1;z-index:100;top:35px;font-size:.7em;border:1px solid grey;border-radius:10px;}.nav_drop p{padding:5px;}.nav_drop p:hover {text-decoration:underline;}#schedule_nav {display:none;line-height:.8em;}#employees_nav {display:none;line-height:.8em;}#reports_nav {display:none;line-height:.8em;}#footer p{font-size:.8em;padding:25px;text-align:center;z-index:-1;float:none;}
-.down_triangles{width:32px;background:url('file://localhost/Users/Anthony/Desktop/sm_revisions/img/black_downpointing_double_triangle.png') no-repeat;}
+.down_triangles{background:url('file:///Users/Anthony/Desktop/maid_app/sm_revisions/img/black_downpointing_double_triangle.png') no-repeat;}
 .save {background:url('file://localhost/Users/Anthony/Desktop/sm_revisions/img/icon_save.png') no-repeat;width:16px;height:16px;}
 .print {background:url('file://localhost/Users/Anthony/Desktop/sm_revisions/img/icon_print.png') no-repeat;width:16px;height:16px;}
 .output{width:60px;height:16px;margin:5px;}
